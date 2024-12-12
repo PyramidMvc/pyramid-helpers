@@ -13,7 +13,7 @@ use Dotenv\Dotenv;
 use Pyramid\Container;
 use Pyramid\Router;
 use Pyramid\Crypt;
-use Pyramid\Services\SessionService;
+use Pyramid\SessionService;
 
 //function xss_clean($string){
 //$config = HTMLPurifier_Config::createDefault();
