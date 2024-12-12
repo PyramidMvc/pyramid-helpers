@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "files": [
-            "HelperFunctions.php"
+            "src/HelperFunctions.php"
         ],
         "psr-4": {
             "Pyramid\\": "src/"
