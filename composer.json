@@ -1,0 +1,24 @@
+{
+    "name": "piramit/helpers",
+    "version": "1.0.0",
+    "description": "Pyramid helpers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nihat Doğan"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "HelperFunctions.php"
+        ],
+        "psr-4": {
+            "Pyramid\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2"
+    }
+}
